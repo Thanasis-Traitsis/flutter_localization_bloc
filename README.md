@@ -28,7 +28,7 @@ dependencies:
   intl: any
 ```
 
-As you begin to witness the initial changes taking place in your app, it's time to configure the supported languages. Flutter provides a comprehensive list of supported languages that you can integrate into your application. You can check all the available languages here ADD THE LINK HEREEEEEEEE. Utilize the following code snippet to set up the language configuration within your MaterialApp:
+As you begin to witness the initial changes taking place in your app, it's time to configure the supported languages. Flutter provides a comprehensive list of supported languages that you can integrate into your application. You can check all the available languages [here](https://api.flutter.dev/flutter/flutter_localizations/GlobalMaterialLocalizations-class.html). Utilize the following code snippet to set up the language configuration within your MaterialApp:
 
 ``` dart
 // import the package so you can benefit from it
