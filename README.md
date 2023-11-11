@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
 ```
 With this example, you can visualize how localization can be implemented within a specific widget, such as the calendar, to reflect the preferred language and regional settings of your users.
 
-![calendar](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/calendar.png)
+<img src="https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/calendar.png" alt="Crop Image" width="300" height="auto">
 
 ### Step 2: Setup your own text
 Now that the basic localization setup is in place, let's take customization to the next level by incorporating your own text. This step allows you to tailor the app's content based on your specific needs, providing a personalized touch to your Flutter application.
@@ -343,8 +343,10 @@ Congratulations! you've successfully learned how to use Flutter localization and
 ### Explore the Multilanguage Flutter App Project
 Behold, a compact yet feature-packed project that showcases the seamless integration of localization and BLoC. Here's a sneak peek at what you can expect:
 
-![greek screenshot](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/greek_screenshot.png)
-![english screenshot](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/english_screenshot.png)
+<div  style="display:flex; flex-direction:row; justify-content:space-evenly;">
+<img src="https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/greek_screenshot.png" alt="Crop Image" width="300" height="auto">
+<img src="https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/english_screenshot.png" alt="Crop Image Result" width="300" height="auto">
+</div>
 
 ### Dive Deeper: Explore the GitHub Repository
 If you're eager to delve deeper into the implementation details, explore the complete project on GitHub. This repository provides a hands-on experience, allowing you to dissect the code, experiment with different configurations, and truly grasp the synergy between localization and BLoC.
