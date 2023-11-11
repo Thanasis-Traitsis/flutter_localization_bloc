@@ -1,5 +1,7 @@
 # Multilingual Application: Implementing Localization with BLoC in Flutter
 
+![header image](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/Localization%20Flutter%20Header%20Image.png)
+
 Flutter enthusiasts, get ready to take your app development prowess to the next level! Are you seeking to elevate your Flutter applications with seamless multilingual support and efficient state management? Look no further. Embark on a seamless journey through the intricate world of Flutter localization, enriched with the power of BLoC for efficient state management. In this comprehensive guide, we'll demystify the process, empowering you to effortlessly create dynamic, user-friendly applications that adapt effortlessly to your audience's location and language preferences.
 
 In case you are wondering what localization is all about, allow me to give you a quick explanatoin.Localization in an application is the process of tailoring the app's content, user interface, and functionality to cater to the unique language, cultural, and regional preferences of its users. Not only does it involve tasks like translating text, adapting date and time formats, and using region-specific currency symbols, but it also empowers developers to create custom text in multiple languages. This means you can provide users with a personalized, native experience by offering content and messages in their preferred language. Localization is the key to breaking down language and cultural barriers, ensuring that your app is accessible and user-friendly to a diverse, global audience.
@@ -208,7 +210,6 @@ Before we dive into the BLoC magic, ensure you have the necessary packages insta
 flutter pub add flutter_bloc
 flutter pub add bloc
 flutter pub add equatable
-
 ```
 ### Step 2: BLoC Files
 Now, let's create the BLoC files that will orchestrate the language-related state changes. In your language folder, create the following three files within a language_bloc folder:
