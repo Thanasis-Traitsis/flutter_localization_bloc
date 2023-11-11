@@ -8,7 +8,7 @@ In case you are wondering what localization is all about, allow me to give you a
 
 Now that we've covered the basics, it's time to roll up our sleeves and dive into the nitty-gritty. Grab your coding gear and get ready to become the Mr. Worldwide of the Flutter world. Dale!
 
-!mrworldwide.gif!
+![mrworldwide gif](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/mrworldwide.gif)
 
 ## Setting up Localization
 
