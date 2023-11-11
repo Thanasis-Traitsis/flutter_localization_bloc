@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
 ```
 With this example, you can visualize how localization can be implemented within a specific widget, such as the calendar, to reflect the preferred language and regional settings of your users.
 
-!image with the calendar!
+![calendar](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/calendar.png)
 
 ### Step 2: Setup your own text
 Now that the basic localization setup is in place, let's take customization to the next level by incorporating your own text. This step allows you to tailor the app's content based on your specific needs, providing a personalized touch to your Flutter application.
@@ -99,7 +99,7 @@ Create a folder inside the lib folder with the name l10n (matching the name spec
 - app_en.arb
 - app_el.arb
 
-!screenshot with the folder and the files!
+![arb files](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/l10n_folder.JPG)
 
 Inside these language files, define the variables for the text you want to use and assign values based on the language. Ensure that the variable names are consistent across different language files:
 
@@ -126,7 +126,7 @@ or
 flutter run
 ```
 
-You should find generated files in ${FLUTTER_PROJECT}/.dart_tool/flutter_gen/gen_l10n.
+You should find generated files in ${your_flutter_project_name}/.dart_tool/flutter_gen/gen_l10n.
 ```
 .dart_tool
 ├── flutter_gen
@@ -213,7 +213,8 @@ flutter pub add equatable
 ```
 ### Step 2: BLoC Files
 Now, let's create the BLoC files that will orchestrate the language-related state changes. In your language folder, create the following three files within a language_bloc folder:
-!image with the folder and files!
+
+![bloc files](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/bloc_folder.JPG)
 
 **language_state.dart**
 ``` dart
@@ -337,12 +338,13 @@ class MyApp extends StatelessWidget {
 ```
 
 ## Bringing it All Together: Your Multilingual Flutter App
-Congratulations! ou've successfully learned how to use Flutter localization and the powerful state management features of BLoC. Now, let's see your newfound knowledge in action with a small project that includes everything we've learned.
+Congratulations! you've successfully learned how to use Flutter localization and the powerful state management features of BLoC. Now, let's see your newfound knowledge in action with a small project that includes everything we've learned.
 
 ### Explore the Multilanguage Flutter App Project
 Behold, a compact yet feature-packed project that showcases the seamless integration of localization and BLoC. Here's a sneak peek at what you can expect:
 
-!Multilanguage Flutter App!
+![greek screenshot](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/greek_screenshot.png)
+![english screenshot](https://github.com/Thanasis-Traitsis/flutter_localization_bloc/blob/main/assets/article_images/english_screenshot.png)
 
 ### Dive Deeper: Explore the GitHub Repository
 If you're eager to delve deeper into the implementation details, explore the complete project on GitHub. This repository provides a hands-on experience, allowing you to dissect the code, experiment with different configurations, and truly grasp the synergy between localization and BLoC.
