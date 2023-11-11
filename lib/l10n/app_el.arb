@@ -1,0 +1,13 @@
+{	
+	"langIcon" : "./assets/images/el_flag.png",
+	"textTitle" : "Κείμενο",
+	"textContent" : "Συγχαρητήρια! Μόλις δημιούργησες μια πολύγλωσση εφαρμογή. Η γλώσσα που διάλεξες είναι : {language}",
+	"@textContent": {
+    	"description": "The content of the main text",
+		"placeholders": {
+    		"language": {
+      			"type": "String"
+    		}
+		}
+  	}
+}
