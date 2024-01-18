@@ -351,8 +351,6 @@ Behold, a compact yet feature-packed project that showcases the seamless integra
 ### Dive Deeper: Explore the GitHub Repository
 If you're eager to delve deeper into the implementation details, explore the complete project on GitHub. This repository provides a hands-on experience, allowing you to dissect the code, experiment with different configurations, and truly grasp the synergy between localization and BLoC.
 
-G[itHub Repository: Multilanguage Flutter App] link here
-
 With this project, you have a tangible resource to reinforce your understanding and elevate your Flutter app development skills. Feel free to customize, expand, and adapt the code to suit the unique requirements of your future projects.
 
 And now...you deserve to call yourself the **Mr.Worldwide** of the Flutter World!🌎 Wishing you a fantastic day ahead, happy coding, and looking forward to catching up with you soon! 
